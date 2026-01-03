@@ -27,7 +27,7 @@ Concevoir une chaîne fonctionnelle ECG simulé → traitement local → transmi
 | Composant | Rôle | Caractéristiques |
 |-----------|------|------------------|
 | **Arduino Leonardo** | Nœud Edge | Acquisition ECG (A0), traitement, LoRa UART |
-| **Raspberry Pi 3** | Plateforme hôte | Pilotage simulateur ECG via GPIO/SPI |
+| **Raspberry Pi 2** | Plateforme hôte | Pilotage simulateur ECG via GPIO/SPI |
 | **Simulateur ECG** | Génération signal | Carte HAT + fichiers profils CSV |
 | **Module LoRa** | Communication | Connexion UART à Arduino |
 | **Passerelle TTN** | Récepteur radio | Infrastructure LoRaWAN communautaire |
