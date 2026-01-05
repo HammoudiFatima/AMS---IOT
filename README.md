@@ -43,21 +43,22 @@ Le traitement principal est effectué **en local sur microcontrôleur (Edge)** a
 ## 3. Architecture globale
 
 Simulateur ECG (CSV + carte)
-|
-v
+        |
+        v
 Raspberry Pi 2
-|
-v (signal analogique)
+        |
+        v  (signal analogique)
 Arduino Leonardo (Edge Computing)
-|
-v (LoRaWAN)
+        |
+        v  (LoRaWAN)
 The Things Network (TTN)
-|
-v (MQTT)
+        |
+        v  (MQTT)
 Node-RED
-|
-v
+        |
+        v
 Dashboard + Base de données
+
 
 
 ---
